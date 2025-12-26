@@ -980,7 +980,7 @@ def editmenu_borrow_add():
 
         print_borrow_data(all=False,index=-1)
         while True:
-            add_confirm = str(input(middle_text('Do you wish to borrow this book (Yes/No) '))).title()
+            add_confirm = str(input(middle_text('Do you wish to add this transaction (Yes/No) '))).title()
             if add_confirm == 'Yes':
                 break
             elif add_confirm == 'No':
@@ -995,7 +995,7 @@ def editmenu_borrow_add():
         print_borrow_data()
 
         while True:
-            more_confirm = str(input(middle_text('Do you wish to borrow more books (Yes/No) '))).title()
+            more_confirm = str(input(middle_text('Do you wish to add more transactions (Yes/No) '))).title()
             if more_confirm == 'Yes':
                 break
             elif more_confirm == 'No':
@@ -1287,3 +1287,4 @@ using_regulardata = True
 program()
 
 ##############################################################################################################################################################
+
